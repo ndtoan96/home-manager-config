@@ -66,8 +66,9 @@
     enable = true;
     settings = {
       editor = {
+        bufferline = "multiple";
         line-number = "relative";
-        cursor-shape.insert = "line";
+        cursor-shape.insert = "bar";
         lsp.display-inlay-hints = true;
       };
     };
@@ -86,6 +87,7 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+    ".config/zellij/config.kdl".source = dotfiles/zellij.kdl;
   };
 
   # Home Manager can also manage your environment variables through
