@@ -108,7 +108,7 @@
   #
 
   home.sessionVariables = {
-    EDITOR = "nu";
+    EDITOR = "hx";
   };
 
   # Let Home Manager install and manage itself.
